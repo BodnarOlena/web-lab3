@@ -1,0 +1,595 @@
+{
+  "semester": 1,
+  "groups": [
+    {
+      "group": {
+        "faculty": "ФЕІ",
+        "number": "25"
+      },
+      "schedule": [
+        {
+          "dayName": "Понеділок",
+          "lessons": [
+            {
+              "lessonNumber": 2,
+              "time": {
+                "start": "10:10",
+                "end": "11:30"
+              },
+              "weekParity": null,
+              "subgroups": [
+                {
+                  "subgroupNumber": null,
+                  "subject": {
+                    "name": "Іноземна мова"
+                  },
+                  "lessonType": "практичне",
+                  "teacher": {
+                    "fullName": "Довбенко Лариса Василівна",
+                    "position": "асистент"
+                  },
+                  "room": {
+                    "number": "129а",
+                    "building": "Т"
+                  }
+                },
+                {
+                  "subgroupNumber": null,
+                  "subject": {
+                    "name": "Іноземна мова"
+                  },
+                  "lessonType": "практичне",
+                  "teacher": {
+                    "fullName": "Шандра Наталія Андріївна",
+                    "position": "доцент"
+                  },
+                  "room": {
+                    "number": "406",
+                    "building": "Т"
+                  }
+                }
+              ]
+            },
+            {
+              "lessonNumber": 3,
+              "time": {
+                "start": "11:50",
+                "end": "13:10"
+              },
+              "weekParity": null,
+              "subgroups": [
+                {
+                  "subgroupNumber": 1,
+                  "subject": {
+                    "name": "Організація баз даних та знань"
+                  },
+                  "lessonType": "лабораторна",
+                  "teacher": {
+                    "fullName": "Цибуляк Б. З.",
+                    "position": "доцент"
+                  },
+                  "room": {
+                    "number": "204",
+                    "building": "Б"
+                  }
+                },
+                {
+                  "subgroupNumber": 2,
+                  "subject": {
+                    "name": "Веб програмування на стороні сервера"
+                  },
+                  "lessonType": "лабораторна",
+                  "teacher": {
+                    "fullName": "Чмихало О. С.",
+                    "position": "асистент"
+                  },
+                  "room": {
+                    "number": "14",
+                    "building": "Б"
+                  }
+                }
+              ]
+            },
+            {
+              "lessonNumber": 4,
+              "time": {
+                "start": "13:30",
+                "end": "14:50"
+              },
+              "weekParity": null,
+              "subgroups": [
+                {
+                  "subgroupNumber": null,
+                  "subject": {
+                    "name": "Оптоелектронна інформатика"
+                  },
+                  "lessonType": "лекція",
+                  "teacher": {
+                    "fullName": "Корчак Юрій Михайлович",
+                    "position": "доцент"
+                  },
+                  "room": {
+                    "number": "1",
+                    "building": "Б"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dayName": "Вівторок",
+          "lessons": [
+            {
+              "lessonNumber": 1,
+              "time": {
+                "start": "08:30",
+                "end": "09:50"
+              },
+              "weekParity": null,
+              "subgroups": [
+                {
+                  "subgroupNumber": null,
+                  "subject": {
+                    "name": "Основи національного спротиву"
+                  },
+                  "lessonType": "лекція",
+                  "teacher": null,
+                  "room": {
+                    "number": "1",
+                    "building": "Б"
+                  }
+                }
+              ]
+            },
+            {
+              "lessonNumber": 2,
+              "time": {
+                "start": "10:10",
+                "end": "11:30"
+              },
+              "weekParity": "знаменник",
+              "subgroups": [
+                {
+                  "subgroupNumber": null,
+                  "subject": {
+                    "name": "Іноземна мова"
+                  },
+                  "lessonType": "практичне",
+                  "teacher": {
+                    "fullName": "Довбенко Лариса Василівна",
+                    "position": "асистент"
+                  },
+                  "room": {
+                    "number": "129а",
+                    "building": "Т"
+                  }
+                },
+                {
+                  "subgroupNumber": null,
+                  "subject": {
+                    "name": "Іноземна мова"
+                  },
+                  "lessonType": "практичне",
+                  "teacher": {
+                    "fullName": "Шандра Наталія Андріївна",
+                    "position": "доцент"
+                  },
+                  "room": {
+                    "number": "406",
+                    "building": "Т"
+                  }
+                }
+              ]
+            },
+            {
+              "lessonNumber": 3,
+              "time": {
+                "start": "11:50",
+                "end": "13:10"
+              },
+              "weekParity": null,
+              "subgroups": [
+                {
+                  "subgroupNumber": null,
+                  "subject": {
+                    "name": "Основи web технологій (ДВВС)"
+                  },
+                  "lessonType": "лекція",
+                  "teacher": {
+                    "fullName": "Демків Лідія Степанівна",
+                    "position": "доцент"
+                  },
+                  "room": {
+                    "number": "3",
+                    "building": "Б"
+                  }
+                }
+              ]
+            },
+            {
+              "lessonNumber": 4,
+              "time": {
+                "start": "13:30",
+                "end": "14:50"
+              },
+              "weekParity": null,
+              "subgroups": [
+                {
+                  "subgroupNumber": 1,
+                  "subject": {
+                    "name": "Основи web технологій (ДВВС)"
+                  },
+                  "lessonType": "практичне",
+                  "teacher": {
+                    "fullName": "Демків Лідія Степанівна",
+                    "position": "доцент"
+                  },
+                  "room": {
+                    "number": "3",
+                    "building": "Б"
+                  }
+                },
+                {
+                  "subgroupNumber": 2,
+                  "subject": {
+                    "name": "Основи web технологій (ДВВС)"
+                  },
+                  "lessonType": "практичне",
+                  "teacher": {
+                    "fullName": "Демків Лідія Степанівна",
+                    "position": "доцент"
+                  },
+                  "room": {
+                    "number": "18",
+                    "building": "Фізичний факультет"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dayName": "Середа",
+          "lessons": [
+            {
+              "lessonNumber": 3,
+              "time": {
+                "start": "11:50",
+                "end": "13:10"
+              },
+              "weekParity": null,
+              "subgroups": [
+                {
+                  "subgroupNumber": 2,
+                  "subject": {
+                    "name": "Операційні системи"
+                  },
+                  "lessonType": "лабораторна",
+                  "teacher": {
+                    "fullName": "Бойко Ярослав Васильович",
+                    "position": "доцент"
+                  },
+                  "room": {
+                    "number": "10",
+                    "building": "Б"
+                  }
+                }
+              ]
+            },
+            {
+              "lessonNumber": 4,
+              "time": {
+                "start": "13:30",
+                "end": "14:50"
+              },
+              "weekParity": null,
+              "subgroups": [
+                {
+                  "subgroupNumber": 2,
+                  "subject": {
+                    "name": "Організація баз даних та знань"
+                  },
+                  "lessonType": "лабораторна",
+                  "teacher": {
+                    "fullName": "Галяткін Олександр Олександрович",
+                    "position": "асистент"
+                  },
+                  "room": {
+                    "number": "5",
+                    "building": "Б"
+                  }
+                }
+              ]
+            },
+            {
+              "lessonNumber": 5,
+              "time": {
+                "start": "15:05",
+                "end": "16:25"
+              },
+              "weekParity": null,
+              "subgroups": [
+                {
+                  "subgroupNumber": 1,
+                  "subject": {
+                    "name": "Веб програмування на стороні сервера"
+                  },
+                  "lessonType": "лабораторна",
+                  "teacher": {
+                    "fullName": "Чмихало Олександр Сергійович",
+                    "position": "асистент"
+                  },
+                  "room": {
+                    "number": "11",
+                    "building": "Б"
+                  }
+                },
+                {
+                  "subgroupNumber": 2,
+                  "subject": {
+                    "name": "Оптоелектронна інформатика"
+                  },
+                  "lessonType": "лабораторна",
+                  "teacher": {
+                    "fullName": "Русиняк Михайло Омелянович",
+                    "position": "доцент"
+                  },
+                  "room": {
+                    "number": "218",
+                    "building": "Т"
+                  }
+                }
+              ]
+            },
+            {
+              "lessonNumber": 6,
+              "time": {
+                "start": "16:40",
+                "end": "18:00"
+              },
+              "weekParity": null,
+              "subgroups": [
+                {
+                  "subgroupNumber": 1,
+                  "subject": {
+                    "name": "Операційні системи"
+                  },
+                  "lessonType": "лабораторна",
+                  "teacher": {
+                    "fullName": "Бойко Ярослав Васильович",
+                    "position": "доцент"
+                  },
+                  "room": {
+                    "number": "10",
+                    "building": "Б"
+                  }
+                }
+              ]
+            },
+            {
+              "lessonNumber": 7,
+              "time": {
+                "start": "18:10",
+                "end": "19:30"
+              },
+              "weekParity": null,
+              "subgroups": [
+                {
+                  "subgroupNumber": 1,
+                  "subject": {
+                    "name": "Оптоелектронна інформатика"
+                  },
+                  "lessonType": "лабораторна",
+                  "teacher": {
+                    "fullName": "Русиняк Михайло Омелянович",
+                    "position": "доцент"
+                  },
+                  "room": {
+                    "number": "218",
+                    "building": "Т"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dayName": "Четвер",
+          "lessons": [
+            {
+              "lessonNumber": 1,
+              "time": {
+                "start": "08:30",
+                "end": "09:50"
+              },
+              "weekParity": "чисельник",
+              "subgroups": [
+                {
+                  "subgroupNumber": null,
+                  "subject": {
+                    "name": "Українська мова (за професійним спрямуванням)"
+                  },
+                  "lessonType": "лекція",
+                  "teacher": {
+                    "fullName": "Щепанська Христина Андріївна",
+                    "position": "доцент"
+                  },
+                  "room": {
+                    "number": "1",
+                    "building": "Б"
+                  }
+                }
+              ]
+            },
+            {
+              "lessonNumber": 1,
+              "time": {
+                "start": "08:30",
+                "end": "09:50"
+              },
+              "weekParity": "знаменник",
+              "subgroups": [
+                {
+                  "subgroupNumber": null,
+                  "subject": {
+                    "name": "Українська мова (за професійним спрямуванням)"
+                  },
+                  "lessonType": "практичне",
+                  "teacher": {
+                    "fullName": "Якимович-Чапран Д. Б.",
+                    "position": "доцент"
+                  },
+                  "room": {
+                    "number": "204",
+                    "building": "Б"
+                  }
+                }
+              ]
+            },
+            {
+              "lessonNumber": 2,
+              "time": {
+                "start": "10:10",
+                "end": "11:30"
+              },
+              "weekParity": null,
+              "subgroups": [
+                {
+                  "subgroupNumber": null,
+                  "subject": {
+                    "name": "Веб програмування на стороні сервера"
+                  },
+                  "lessonType": "лекція",
+                  "teacher": {
+                    "fullName": "Чмихало Олександр Сергійович",
+                    "position": "асистент"
+                  },
+                  "room": {
+                    "number": "1",
+                    "building": "Б"
+                  }
+                }
+              ]
+            },
+            {
+              "lessonNumber": 3,
+              "time": {
+                "start": "12:30",
+                "end": null
+              },
+              "weekParity": "чисельник",
+              "subgroups": [
+                {
+                  "subgroupNumber": null,
+                  "subject": {
+                    "name": "Основи національного спротиву"
+                  },
+                  "lessonType": "практичне",
+                  "teacher": null,
+                  "room": {
+                    "number": "Спортивний комплекс ЛНУ, вул. Черемшини 31",
+                    "building": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dayName": "П'ятниця",
+          "lessons": [
+            {
+              "lessonNumber": 1,
+              "time": {
+                "start": "08:30",
+                "end": "09:50"
+              },
+              "weekParity": null,
+              "subgroups": [
+                {
+                  "subgroupNumber": null,
+                  "subject": {
+                    "name": "Організація баз даних та знань"
+                  },
+                  "lessonType": "лекція",
+                  "teacher": {
+                    "fullName": "Гусак Олег Васильович",
+                    "position": "асистент"
+                  },
+                  "room": {
+                    "number": "1",
+                    "building": "Б"
+                  }
+                }
+              ]
+            },
+            {
+              "lessonNumber": 2,
+              "time": {
+                "start": "10:10",
+                "end": "11:30"
+              },
+              "weekParity": null,
+              "subgroups": [
+                {
+                  "subgroupNumber": null,
+                  "subject": {
+                    "name": "Операційні системи"
+                  },
+                  "lessonType": "лекція",
+                  "teacher": {
+                    "fullName": "Бойко Ярослав Васильович",
+                    "position": "доцент"
+                  },
+                  "room": {
+                    "number": "1",
+                    "building": "Б"
+                  }
+                }
+              ]
+            },
+            {
+              "lessonNumber": 3,
+              "time": {
+                "start": "11:50",
+                "end": "13:10"
+              },
+              "weekParity": null,
+              "subgroups": [
+                {
+                  "subgroupNumber": null,
+                  "subject": {
+                    "name": "ДВВС"
+                  },
+                  "lessonType": null,
+                  "teacher": null,
+                  "room": null
+                }
+              ]
+            },
+            {
+              "lessonNumber": 4,
+              "time": {
+                "start": "13:30",
+                "end": "14:50"
+              },
+              "weekParity": null,
+              "subgroups": [
+                {
+                  "subgroupNumber": null,
+                  "subject": {
+                    "name": "ДВВС"
+                  },
+                  "lessonType": null,
+                  "teacher": null,
+                  "room": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
