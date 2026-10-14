@@ -47,6 +47,22 @@ function flattenLessons(data) {
   return result;
 }
 
+// Формує рядок списку: день, час, предмет і уточнення (тип, підгрупа, викладач, чергування), якщо вони не null
+function describeItem(item) {
+  const { lesson, subgroup } = item;
+  const details = [];
+  if (subgroup.lessonType !== null) details.push(subgroup.lessonType);
+  if (subgroup.subgroupNumber !== null) details.push(`підгрупа ${subgroup.subgroupNumber}`);
+  if (subgroup.teacher !== null) details.push(subgroup.teacher.fullName);
+  if (lesson.weekParity !== null) details.push(lesson.weekParity);
+
+  let text = `${item.day}, ${lesson.time.start} - ${subgroup.subject.name}`;
+  if (details.length > 0) {
+    text += ` (${details.join(', ')})`;
+  }
+  return text;
+}
+
 const program = new Command();
 
 program
@@ -58,12 +74,22 @@ program
 
 program
   .command('list')
-  .description('показати список усіх занять')
-  .action(() => {
+  .description('показати список занять')
+  .option('-l, --limit <n>', 'показати лише перші n занять')
+  .action((options) => {
     const data = loadSchedule(program.opts().file);
-    const items = flattenLessons(data);
+    let items = flattenLessons(data);
+
+    if (options.limit !== undefined) {
+      const limit = Number(options.limit);
+      if (!Number.isInteger(limit) || limit < 1) {
+        fail(`значення --limit має бути цілим числом від 1, а не "${options.limit}"`);
+      }
+      items = items.slice(0, limit);
+    }
+
     items.forEach((item, i) => {
-      console.log(`${i + 1}. ${item.day}, ${item.lesson.time.start} - ${item.subgroup.subject.name}`);
+      console.log(`${i + 1}. ${describeItem(item)}`);
     });
   });
 
